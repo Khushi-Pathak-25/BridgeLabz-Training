@@ -8,8 +8,7 @@ class CalculateProfitAndLoss{
     //Calculate Profit Percentage
     double profitPercentage = profit / costPrice * 100;
     
-    System.out.println("The Cost Price is INR "+costPrice+" and Selling Price is INR "+sellingPrice +'\n'+"The 
-    Profit is INR "+profit+" and the Profit Percentage is "+ profitPercentage);
-
+    System.out.println("The Cost Price is INR "+ costPrice +" and Selling Price is INR "+ sellingPrice  +"\n"+
+    "The Profit is INR "+ profit +" and the Profit Percentage is "+ profitPercentage);
     }
 }
