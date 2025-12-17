@@ -6,5 +6,5 @@ class AddTwoNumbers{
      int a=s.nextInt();
      int b=s.nextInt();
      System.out.println("Sum: "+ (a+b));
+     }
 }
- }
