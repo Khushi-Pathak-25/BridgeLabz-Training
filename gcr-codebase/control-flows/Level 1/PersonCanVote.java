@@ -18,6 +18,7 @@ class PersonCanVote{
         else{
             System.out.println("The person's age is "+ age +" and cannot vote.");
         }
+        input.close();
    }
 }   
          
