@@ -21,5 +21,6 @@ class NumberPositiveNegativeOrZero{
         else{
             System.out.println("zero");
         }
+        input.close();
    }
 }
