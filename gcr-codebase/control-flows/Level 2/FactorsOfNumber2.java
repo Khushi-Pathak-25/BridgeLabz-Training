@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class FactorsOfNumber2 {
+public class FactorsOfNumber2{
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         // Creating Scanner object
         Scanner input = new Scanner(System.in);
@@ -12,19 +12,19 @@ public class FactorsOfNumber2 {
         int number = input.nextInt();
 
         // Check if the number is a positive 
-        if (number <= 0) {
+        if (number <= 0){
             System.out.println("Please enter a positive integer.");
         }
-        else {
+        else{
 
              // Initialize number 
              int i = 1;
 
              // Run while loop
-             while (i <= number) {
+             while (i < number){
 
                 // Check if number is divisible by i
-                if (number % i == 0) {
+                if (number % i == 0){
                     System.out.println(i);
                 }
 
