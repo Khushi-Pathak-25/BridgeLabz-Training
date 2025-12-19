@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class 2DArrayTo1DArray {
+public class 2DArrayTo1DArray{
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         //Creating Scanner input
         Scanner input = new Scanner(System.in);
@@ -20,9 +20,9 @@ public class 2DArrayTo1DArray {
 
         // Taking input values for the 2D array
         System.out.println("Enter elements of the 2D array:");
-        for (int i = 0; i < rows; i++) { 
-            for (int j = 0; j < columns; j++) { 
-                matrix[i][j] = sc.nextInt();
+        for (int i = 0; i < rows; i++){ 
+            for (int j = 0; j < columns; j++){ 
+                matrix[i][j] = input.nextInt();
             }
         }
         
@@ -33,26 +33,28 @@ public class 2DArrayTo1DArray {
         int index = 0;
 
         //Copying elements from 2D array to 1D array
-        for (int i = 0; i < rows; i++) {       
-            for (int j = 0; j < columns; j++) { 
+        for (int i = 0; i < rows; i++){       
+            for (int j = 0; j < columns; j++){ 
                 array[index] = matrix[i][j];  
                 index++;                         
             }
         }
 
-        //Displaying the 2D array
+        //Printing the 2D array
         System.out.println("\n2D Array:");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
+        for (int i = 0; i < rows; i++){
+            for (int j = 0; j < columns; j++){
                 System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }
 
-        //Displaying the copied 1D array
+        //Printing copied 1D array
         System.out.println("\n1D Array:");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
+        
+        input.close();
     }
 }
