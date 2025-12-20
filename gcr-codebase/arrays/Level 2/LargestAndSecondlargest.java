@@ -20,9 +20,7 @@ public class LargestAndSecondlargest {
        // Create variable index and set value 0
        int index = 0;
        
-       // Create variable temp
-       int temp = number;
-      
+       // Take while loop 
        while(number != 0){
        
            // Break if maxDigit limit reached
