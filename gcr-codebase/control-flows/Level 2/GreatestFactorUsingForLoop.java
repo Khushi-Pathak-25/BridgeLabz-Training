@@ -31,8 +31,7 @@ public class GreatestFactorUsingForLoop{
             }
 
             // Print the result
-            System.out.println(
-                "Greatest factor of " + number + " beside itself is: " + greatestFactor);
+            System.out.println("Greatest factor of " + number + " beside itself is: " + greatestFactor);
         }
 
         input.close();
