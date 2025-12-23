@@ -8,13 +8,13 @@ public class FirstNonRepeatingCharacter {
         // ASCII frequency array (256 characters)
         int[] frequency = new int[256];
 
-        // Step 1: Count frequency of each character
+        // 1. Count frequency of each character
         for (int i = 0; i < text.length(); i++) {
             char ch = text.charAt(i);
             frequency[ch]++;
         }
 
-        // Step 2: Find first character with frequency 1
+        // 2. Find first character with frequency 1
         for (int i = 0; i < text.length(); i++) {
             char ch = text.charAt(i);
             if (frequency[ch] == 1) {
