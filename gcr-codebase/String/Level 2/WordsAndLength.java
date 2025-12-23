@@ -62,7 +62,7 @@ public class WordsAndLength{
 		
 		for(int i=0;i<arr.length ;i++){
 		  arr[i][0] = storeWords[i];
-		  arr[i][1] = ""+findLength(arr[i][0]);
+		  arr[i][1] = String.valueOf(findLength(arr[i][0]));
 		}
 		
 		return arr;
