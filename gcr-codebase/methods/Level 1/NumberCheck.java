@@ -29,5 +29,6 @@ public class NumberCheck {
         
 		// Display output
         System.out.println("Result = " + result);
+		
     }
 }
