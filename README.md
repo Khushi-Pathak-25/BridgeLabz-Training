@@ -113,7 +113,7 @@ BridgeLabz-Training/
 👉 [Day 6 – Strings & Methods](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/String)
 
 ---
-
+### Week 2: Strings & Extra Programming Fundamentals
 ### 🗓 Day 7 – Built-in Functions & Extra Practice  
 **(Date: 23-Dec-2025)**
 
