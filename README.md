@@ -129,23 +129,23 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Day 7 – Built-in Functions](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
 
-🗓 Day 8 – Built-in Functions & Extra Practice 
-(Date: 23-Dec-2025)
+### 🗓 Day 8 – Built-in Functions & Extra Practice 
+**(Date: 23-Dec-2025)**
 
-Practiced Java built-in classes such as Math and Random.
-Worked with date and time handling using Java 8+ date-time APIs:
-LocalDate
-LocalTime
-LocalDateTime
-ZonedDateTime
-DateTimeFormatter
-ASCII character codes
-Studied Java exception handling concepts:
-Java exception hierarchy
-Checked and unchecked exceptions
-java.lang.RuntimeException
-Organized programs into appropriate folders.
-Committed and pushed all changes successfully.
-🔗 Code Link:
+- Practiced Java built-in classes such as Math and Random.
+- Worked with date and time handling using Java 8+ date-time APIs:
+- LocalDate
+- LocalTime
+- LocalDateTime
+- ZonedDateTime
+- DateTimeFormatter
+- ASCII character codes
+- Studied Java exception handling concepts: 
+- Java exception hierarchy
+- Checked and unchecked exceptions
+- java.lang.RuntimeException
+- Organized programs into appropriate folders.
+- Committed and pushed all changes successfully.
+🔗 **Code Link:**
 👉 [Day 8 ] (https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
 
