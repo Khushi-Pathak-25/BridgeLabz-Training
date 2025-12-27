@@ -114,7 +114,7 @@ BridgeLabz-Training/
 
 ---
 
-📅 Week 2: Strings & Extra Programming Fundamentals
+### 📅 Week 2: Strings & Extra Programming Fundamentals
 
 ---
 
@@ -174,7 +174,7 @@ BridgeLabz-Training/
 
 🔗 Code Link:
 👉 [Scenario Based Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
 👉 [LeetCode Array Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/array)
 
---
 
