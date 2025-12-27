@@ -1,4 +1,5 @@
- ### Day 9 – OOP Basics & Paradigm Comparison
+ ### Day 10 – OOP Basics & Paradigm Comparison
+ ---
 **(Date: 26-Dec-2025)**
 
 - Set up and reviewed the java-oops-practice branch structure.
@@ -26,4 +27,4 @@ BridgeLabz-Training/
  
 🔗 Code Link:
 
-👉 Day 9 – [Class and Object Level 1 and Level 2](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+👉 Day 10 – [Class and Object Level 1 and Level 2](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
