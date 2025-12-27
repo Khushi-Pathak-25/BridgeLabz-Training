@@ -1,4 +1,4 @@
-### 📅 Week 1: Git, GitHub & Java Programming Fundamentals
+## 📅 Week 1: Git, GitHub & Java Programming Fundamentals
 
 ---
 
@@ -114,7 +114,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Week 2: Strings & Extra Programming Fundamentals
+## 📅 Week 2: Strings & Extra Programming Fundamentals
 
 ---
 
