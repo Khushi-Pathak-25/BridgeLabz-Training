@@ -26,4 +26,4 @@ BridgeLabz-Training/
  
 🔗 Code Link:
 
-👉 Day 9 – https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject
+👉 Day 9 – [Class and Object Level 1 and Level 2](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
