@@ -160,6 +160,7 @@ BridgeLabz-Training/
 - Committed and pushed all changes successfully.
   
 🔗 Code Link:
+
 👉 Day 8 – [Extra](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
 
 ---
@@ -173,6 +174,7 @@ BridgeLabz-Training/
 - Committed and pushed all solutions.
 
 🔗 Code Link:
+
 👉 [Scenario Based Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
 👉 [LeetCode Array Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/array)
