@@ -113,23 +113,28 @@ BridgeLabz-Training/
 👉 [Day 6 – Strings & Methods](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/String)
 
 ---
-### 📅 Week 2: Strings & Extra Programming Fundamentals
-### 🗓 Day 7 – Built-in Functions & Extra Practice  
-**(Date: 23-Dec-2025)**
 
-- Practiced Java built-in functions.
-- Implemented utility programs such as:
-  - Temperature Converter
-- Improved understanding of:
-  - Input handling
-  - Type conversion
-- Organized programs into proper folders.
-- Committed and pushed all changes successfully.
+📅 Week 2: Strings & Extra Programming Fundamentals
 
-🔗 **Code Link:**  
-👉 [Day 7 – Built-in Functions](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
+---
 
-### 🗓 Day 8 – Built-in Functions & Extra Practice 
+### 🗓 Day 7 – Java Strings
+**(Date: 22-Dec-2025)**
+
+- Studied String concepts:
+- String creation
+- String methods
+- Character processing
+- Implemented programs for string manipulation.
+- Committed and pushed solutions to the repository.
+  
+🔗 Code Link:
+
+👉 Day 7 – [String](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/String)
+
+---
+
+### 🗓 Day 8 – Extra Built-in Functions & String Practice
 **(Date: 23-Dec-2025)**
 
 - Practiced Java built-in classes such as Math and Random.
@@ -139,26 +144,37 @@ BridgeLabz-Training/
 - LocalDateTime
 - ZonedDateTime
 - DateTimeFormatter
+- Practiced String concepts including:
+- Creating strings and taking string input
+- Escape sequences (\)
+- String arrays
+- Strings as method parameters
+- Built-in String class methods
 - ASCII character codes
-- Studied Java exception handling concepts: 
+- Studied Java exception handling concepts:
 - Java exception hierarchy
 - Checked and unchecked exceptions
 - java.lang.RuntimeException
+- Implemented utility programs such as a temperature converter.
 - Organized programs into appropriate folders.
 - Committed and pushed all changes successfully.
   
-🔗 **Code Link:**
-👉 [Day 8 ] (https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
+🔗 Code Link:
+👉 Day 8 – [Extra](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
 
+---
 
 ### 🗓 Day 9 – Scenario-Based & LeetCode Array Practice
 **(Date: 24-Dec-2025)**
 
-- Solved 2 scenario-based problems using Java.
-- Practiced 5 array-based problems on LeetCode.
+- Solved scenario-based problems using Java.
+- Practiced array-based problems on LeetCode.
 - Focused on logical thinking and clean code.
 - Committed and pushed all solutions.
 
-🔗 **Code Link:**
-👉 (https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
-👉 (https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/array)
+🔗 Code Link:
+👉 [Scenario Based Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+👉 [LeetCode Array Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/array)
+
+--
+
