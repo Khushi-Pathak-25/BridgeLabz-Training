@@ -94,14 +94,9 @@ BridgeLabz-Training/
 
 ---
 
-### 🗓 Day 6 – Strings & Methods  
+### 🗓 Day 6 – Methods  
 **(Date: 22-Dec-2025)**
 
-- Studied String concepts:
-  - String creation
-  - String methods
-  - Character processing
-- Implemented programs for string manipulation.
 - Studied Java methods:
   - Method declaration
   - Method calling
@@ -110,7 +105,7 @@ BridgeLabz-Training/
 - Committed and pushed solutions to the repository.
 
 🔗 **Code Link:**  
-👉 [Day 6 – Strings & Methods](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/String)
+👉 [Day 6 – Methods](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
 
 ---
 
