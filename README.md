@@ -177,6 +177,17 @@ BridgeLabz-Training/
 
 👉 [Scenario Based Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
-👉 [LeetCode Array Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/array)
+👉 [LeetCode Array Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/array)  
 
+---
 
+### 🗓 Day 10 – LeetCode String Practice
+**(Date: 27-Dec-2025)**
+
+- Practiced 5 string-based problems on LeetCode.
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
+
+🔗 Code Links:
+
+👉[LeetCode String Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/String)
