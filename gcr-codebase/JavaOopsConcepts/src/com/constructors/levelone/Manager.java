@@ -17,11 +17,11 @@ public class Manager extends Employee {
 
     // main method
     public static void main(String[] args) {
-        Manager manager = new Manager(111, "IT", 80000);
+        Manager manager = new Manager(111, "IT", 80000.0);
 
         manager.displayManagerDetails();
 
-        manager.setSalary(95000);
+        manager.setSalary(95000.0);
         System.out.println("Updated Salary: " + manager.getSalary());
     }
 }
