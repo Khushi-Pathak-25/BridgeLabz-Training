@@ -12,8 +12,8 @@ public class HotelBooking {
 	// Default constructor
 	HotelBooking(){
 	    guestName = "XYZ";
-	    roomType = "Single";
-	    nights = 0;
+	    roomType = "Standard";
+	    nights = 1;
     }
 	
 	// Parameterized constructor
