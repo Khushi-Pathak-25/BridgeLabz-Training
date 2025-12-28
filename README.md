@@ -191,3 +191,16 @@ BridgeLabz-Training/
 🔗 Code Links:
 
 👉[LeetCode String Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/String)
+
+---
+
+### 🗓 Day 11 – LeetCode Maths Practice
+**(Date: 28-Dec-2025)**
+
+- Practiced 5 math-based basic logic problems on LeetCode.
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
+  
+🔗 Code Links:
+
+👉[LeetCode Basic Logic Math Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/basic%20-%20maths)
