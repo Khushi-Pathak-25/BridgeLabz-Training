@@ -1,3 +1,9 @@
+/* 5. Raj’s Result Generator ‍
+Raj runs a coaching center. He needs to generate results.
+● Input 5 subject marks.
+● Calculate average.
+● Switch to assign grades.
+● for-loop to iterate over subjects.*/
 
 import java.util.Scanner;
 
