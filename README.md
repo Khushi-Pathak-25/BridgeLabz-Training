@@ -220,3 +220,21 @@ BridgeLabz-Training/
 
 🔗 **Code Links:**  
 👉 [Scenario Basic Logic Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-03)
+
+---
+
+### 🗓 Day 13 – Scenario-based Practice  
+**(Date: 30-Dec-2025)**
+
+- Practiced **5 scenario-based problems**.
+  - TemperatureLogger
+  - TrainReservationQueue
+  - FitnessChallengeTracker
+  - MovieTicketBookingApp
+  - LibraryReminderApp
+    
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
+
+🔗 **Code Links:**  
+👉 [Scenario Basic Logic Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-04)
