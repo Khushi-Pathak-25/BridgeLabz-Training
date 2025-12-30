@@ -170,7 +170,7 @@ BridgeLabz-Training/
 
 🔗 Code Link:
 
-👉 [Scenario Based Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+👉 [Scenario Based Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-01)
 
 👉 [LeetCode Array Problem](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/array)  
 
@@ -193,12 +193,15 @@ BridgeLabz-Training/
 **(Date: 28-Dec-2025)**
 
 - Practiced 5 math-based basic logic problems on LeetCode.
+-  Solved scenario-based problems using Java.
 - Focused on logical thinking and clean code.
 - Committed and pushed all solutions.
   
 🔗 Code Links:
 
 👉[LeetCode Basic Logic Math Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/basic%20-%20maths)
+
+👉[Scenario Based Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-02)
 
 ---
 
@@ -216,4 +219,4 @@ BridgeLabz-Training/
 - Committed and pushed all solutions.
 
 🔗 **Code Links:**  
-👉 [Scenario Basic Logic Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+👉 [Scenario Basic Logic Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-03)
