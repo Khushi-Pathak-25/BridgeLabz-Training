@@ -1,3 +1,10 @@
+/* 3. Election Booth Manager ️
+Design a polling booth system.
+● Take age input.
+● Use if to check if eligible (>=18).
+● Record vote (1, 2, or 3 for candidates).
+● Loop for multiple voters, exit on special code.*/
+
 import java.util.Scanner;
 
 public class ElectionBoothManager {
