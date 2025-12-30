@@ -1,4 +1,8 @@
-//  Parking Lot Gate System 🚗
+/* 6. Parking Lot Gate System 🚗
+Develop a smart parking system.
+● Options: Park, Exit, Show Occupancy
+● Use switch-case for the menu.
+● while loop to continue until the parking lot is full or the user exits.*/
 
 import java.util.Scanner;
 
