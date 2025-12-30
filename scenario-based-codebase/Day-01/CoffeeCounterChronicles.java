@@ -1,3 +1,11 @@
+/* Problem 1: The Coffee Counter Chronicles
+
+Ravi runs a café where customers order different types of coffee with specific quantities.
+Write a Java program that asks the user for the coffee type using switch, accepts quantity,
+calculates the total bill using price multiplied by quantity, adds GST using arithmetic operators, 
+and continues serving customers using a while loop. The program should stop when the user types “exit”.*/
+
+
 import java.util.*;
 
 public class CoffeeCounterChronicles {
@@ -12,6 +20,7 @@ public class CoffeeCounterChronicles {
         while (true) {
 
             System.out.println("\nEnter coffee type (Espresso / Latte / Cappuccino / Americano) or type 'exit' to stop:");
+								 
             String coffeeType = input.nextLine().trim().toLowerCase();
 
             //Loop terminating condition
