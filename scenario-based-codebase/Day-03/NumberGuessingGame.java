@@ -1,4 +1,9 @@
-// The Number Guessing Game 🎲
+/* 7. The Number Guessing Game 🎲
+A game asks the player to guess a number between 1 and 100.
+Core Java Scenario Based Problem Statements
+● Use do-while loop.
+● Give hints like "Too high" or "Too low".
+● Count attempts and exit after 5 wrong tries.*/
 
 import java.util.Scanner;
 
