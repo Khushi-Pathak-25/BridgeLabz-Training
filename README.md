@@ -199,3 +199,21 @@ BridgeLabz-Training/
 🔗 Code Links:
 
 👉[LeetCode Basic Logic Math Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/basic%20-%20maths)
+
+---
+
+### 🗓 Day 12 – Scenario-based Practice  
+**(Date: 29-Dec-2025)**
+
+- Practiced **5 scenario-based problems**.
+  - SmartParkingSystem
+  - NumberGuessingGame
+  - ShopkeeperDiscountDashboard
+  - SchoolBusAttendanceSystem
+  - PhoneRechargeSimulator
+    
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
+
+🔗 **Code Links:**  
+👉 [Scenario Basic Logic Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
