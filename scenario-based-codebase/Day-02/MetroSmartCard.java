@@ -1,3 +1,10 @@
+/* 4. Metro Smart Card Fare Deduction 🚇
+In Delhi Metro, fare varies by distance.
+● Ask the user for distance.
+● Calculate fare using ternary operator.
+● Deduct from smart card balance.
+Loop until balance is exhausted or the user quits.*/
+
 import java.util.Scanner;
 
 public class MetroSmartCard {
