@@ -238,3 +238,21 @@ BridgeLabz-Training/
 
 🔗 **Code Links:**  
 👉 [Scenario Basic Logic Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-04)
+
+---
+
+### 🗓 Day 14 – Scenario-based Practice  
+**(Date: 31-Dec-2025)**
+
+- Practiced **5 scenario-based problems**.
+  - DigitalWatchSimulation
+  - OnlineQuizApp
+  - CurrencyConverter
+  - BusRouteDistanceTracker
+  - FestivalLuckyDraw
+    
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
+
+🔗 **Code Links:**  
+👉 [Scenario Basic Logic Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-05)
