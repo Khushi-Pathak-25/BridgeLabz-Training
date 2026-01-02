@@ -5,7 +5,7 @@ Tasks:
 Define a superclass Course with attributes like courseName and duration.
 Define OnlineCourse to add attributes such as platform and isRecorded.
 Define PaidOnlineCourse to add fee and discount.
-Goal: Demonstrate how each level of inheritance builds on the previous, adding complexity to the system.*/
+Goal: Demonstrate how each level of inheritance builds on the previous, adding complexity to the system. */
 
 package com.inheritance.multilevelinheritance.educationalcourse;
 
