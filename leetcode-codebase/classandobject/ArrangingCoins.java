@@ -20,7 +20,7 @@ public class ArrangingCoins {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        LC0441_ArrangingCoins sol = new LC0441_ArrangingCoins();
+        ArrangingCoins sol = new ArrangingCoins();
 
         System.out.print("Enter number of coins: ");
         int n = input.nextInt();
