@@ -130,3 +130,15 @@ BridgeLabz-Training/
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
 👉 [Scenario Based Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/scenario-based-codebase/JavaOopsScenarioBased/src/com/daythree)
+
+---
+## 🧮 Section C : LeetCode-based Problems Progress
+
+### 🗓 Day 17 – LeetCode-based Practice
+**(Date: 05-Jan-2026)**
+
+- Practiced classes-objects and constructors based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**
+ 👉 [LeetCode Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/leetcode-codebase)
