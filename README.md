@@ -35,3 +35,14 @@ BridgeLabz-Training/
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
 👉 [LinkedLists and its types](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/linkedlists)
+
+### 🗓 Day 16 – Stack, Queue & HashMap
+**(Date: 03-Jan-2026)**
+- Studied core data structures:
+  - Stack
+  - Queue
+  - HashMap
+- Understood basic operations and use cases of each.
+- Committed and pushed all work.
+- 🔗 **Code Link:**  
+👉 [Stack, Queue & HashMap](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com)
