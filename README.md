@@ -1,6 +1,6 @@
 # BridgeLabz-Training
 
-## 📅 Week 1: Git, GitHub & Java Programming Fundamentals
+# 📅 Git, GitHub & Java Programming Fundamentals
 
 ---
 
@@ -111,7 +111,7 @@ BridgeLabz-Training/
 
 ---
 
-## 📅 Week 2: Strings & Extra Programming Fundamentals
+## : Strings & Extra Programming Fundamentals
 
 ---
 
@@ -260,7 +260,8 @@ BridgeLabz-Training/
 👉 [Scenario Basic Logic Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day-05)
 
 ---
-## 🗓 Week 2: Java Object-Oriented Programming (OOP)
+
+# 🗓 Java Object-Oriented Programming (OOP)
 
 ## 📘 Section A : Training Learning Progress
 
@@ -412,7 +413,8 @@ BridgeLabz-Training/
  👉 [LeetCode Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/leetcode-codebase)
 
 ---
-## 🗓 Week 3 : Data Structures & Algorithms in Java
+
+# 🗓 Data Structures & Algorithms in Java
 
 ## 📘 Section A : Training Learning Progress
 
