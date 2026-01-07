@@ -139,6 +139,14 @@ BridgeLabz-Training/
 - 🔗 **Code Links:**  
 👉 [Scenario Based Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/scenario-based-codebase/JavaOopsScenarioBased/src/com/dayfour)
 
+### 🗓 Day 19 – Scenario-Based Practice  
+**(Date: 07-Jan-2026)**
+- Solved **3** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/scenario-based-codebase/JavaOopsScenarioBased/src/com/dayfive)
+
 ---
 ## 🧮 Section C : LeetCode-based Problems Progress
 
