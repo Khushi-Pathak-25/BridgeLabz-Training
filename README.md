@@ -168,6 +168,7 @@ BridgeLabz-Training/
 - 📌 [Stacks](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/stacks)
 - 📌 [Queues](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/queues)
 - 📌 [HashMaps](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/hashmaps)
+- 📌 [Sorting Algorithms](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
 
 ---
 
