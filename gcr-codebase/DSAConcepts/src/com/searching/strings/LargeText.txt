@@ -1,0 +1,5 @@
+Java is one of the most popular programming languages in the world.
+Java is platform independent and object oriented.
+Many applications are built using Java including web, mobile, and enterprise systems.
+Java is a high-level programming language. Java is secure and robust.
+Java supports multithreading. Java is widely used.
