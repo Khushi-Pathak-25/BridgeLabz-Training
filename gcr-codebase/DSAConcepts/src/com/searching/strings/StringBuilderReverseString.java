@@ -11,7 +11,7 @@ public class StringBuilderReverseString {
 		// Append string to StringBuilder
 		sb.append(input);
 
-		// Reverse the xstring
+		// Reverse the string
 		sb.reverse();
 
 		// Convert back to String
@@ -20,7 +20,7 @@ public class StringBuilderReverseString {
 
 	public static void main(String[] args) {
 
-		String input = "Hello World";
+		String input = "hello";
 
 		System.out.println("Original String: " + input);
 
