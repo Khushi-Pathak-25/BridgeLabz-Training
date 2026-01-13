@@ -20,12 +20,13 @@ public class MainTrafficManager {
 	        queue.enqueue(102);
 	        queue.enqueue(103);
 
-	        roundabout.addVehicle(queue.dequeue());
+	        roundabout.addVehicle(queue.dequeue());     /*int carNumber = queue.dequeue();	                                                       roundabout.addCar(carNumber);*/
 	        roundabout.addVehicle(queue.dequeue());
 
 	        roundabout.display();
 
-	        roundabout.removeVehicle();
+	        roundabout.removeVehicle(); // Remove head car (first entered)
+	      
 	        roundabout.display();
 	 }
 	
