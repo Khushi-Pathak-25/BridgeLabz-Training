@@ -174,6 +174,7 @@ BridgeLabz-Training/
 - 📌 [Sorting Algorithms](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
 - 📌 [Searching Algorithms, String & I/O utilities](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/searching)
 - 📌 [Time & Space Complexity Analysis](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/analysis)
+- 📌 [Scenario-Based Solutions](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/scenario-based-codebase/DSAScenarioBasedPractice/src/com)
 
 ---
 
