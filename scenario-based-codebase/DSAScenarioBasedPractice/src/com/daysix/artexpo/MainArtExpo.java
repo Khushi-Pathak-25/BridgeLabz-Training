@@ -10,6 +10,7 @@ Key Concepts:
 package com.daysix.artexpo;
 
 import java.util.Scanner;
+
 public class MainArtExpo {
 
 	public static void main(String[]args) {
