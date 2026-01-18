@@ -179,7 +179,7 @@ BridgeLabz-Training/
 - 🔗 **Code Links:**  
 👉 [Scenario Based Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-oops-practice/scenario-based-codebase/JavaOopsScenarioBased/src/com/daynine)
 
-### 🗓 Day 23 – Scenario-Based Practice  
+### 🗓 Day 24 – Scenario-Based Practice  
 **(Date: 17-Jan-2026)**
 - Solved **2** scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
