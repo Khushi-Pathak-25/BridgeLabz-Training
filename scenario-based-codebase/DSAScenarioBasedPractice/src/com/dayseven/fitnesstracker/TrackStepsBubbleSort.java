@@ -15,7 +15,6 @@ public class TrackStepsBubbleSort {
 			}
 		}
 	}
-	
 	public static void display(int steps[]) {
 		
 		System.out.println("---- FitnessTracker leaderboard Rank  ----");
