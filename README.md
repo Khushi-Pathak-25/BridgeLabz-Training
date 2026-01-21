@@ -67,9 +67,25 @@ BridgeLabz-Training/
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based-codebase/           # Real-world problems
 |
+└── 📁 java-collections-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 CollectionsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               └── 📁 generics/          # Generic classes, methods, wildcards
+│   │               └── 📁 listinterface/     # List interface and implementations
+│   │               └── 📁 setinterface/      # Set interface and implementations
+│   │               └── 📁 queueinterface/    # Queue & Deque interface examples
+│   │               └── 📁 mapinterface/      # Map interface and implementations
+│   │
+│   │             
+│   │               
+|   |
+│   ├── 📁 leet-code-codebase/
+│   └── 📁 scenario-based-codebase/
+|
 └── README.md
 ```
-
 ---
 
 ##  Learning Milestones
@@ -108,6 +124,12 @@ BridgeLabz-Training/
 |  18 | 06-Jan      | Searching & I/O utilities      | Linear & Binary Search and FileReader  |
 |  19 | 07-Jan      | Runtime Analysis & Big-O       | Time & space complexity analysis       |
 
+### **Week 4 : Collections Framework in Java**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 22  | 16-Jan      | Java Generics                  | Generic classes, methods, type parameters, bounded types, wildcards |
+| 23  | 17-Jan      | Collections Framework          | Collection hierarchy, List, Set, Queue, Map, implementations        |
+
 ---
 
 ##  Key Concepts Covered
@@ -141,6 +163,15 @@ BridgeLabz-Training/
 - **File Handling**: Reading input using `FileReader` and `InputStreamReader`
 - **Algorithm Analysis**: Big-O notation, time complexity, space complexity, best, worst, and average case evaluation.
   
+### Collections Framework (java-collections-practice)
+- **Generics**: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
+- **Collections Overview**: Purpose and benefits of Java Collections Framework
+- **Hierarchy**: `Iterable`, `Collection`, `List`, `Set`, `Queue`, and `Map`
+- **List Implementations**: `ArrayList`, `LinkedList`, `Vector`
+- **Set Implementations**: `HashSet`, `LinkedHashSet`, `TreeSet`
+- **Map Implementations**: `HashMap`, `LinkedHashMap`, `TreeMap`, `Hashtable`
+- **Queue & Deque**: `PriorityQueue`, `ArrayDeque`
+    
 ---
 
 ## 🔗 Quick Links
@@ -175,7 +206,12 @@ BridgeLabz-Training/
 - 📌 [Searching Algorithms, String & I/O utilities](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/searching)
 - 📌 [Time & Space Complexity Analysis](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/analysis)
 - 📌 [Scenario-Based Solutions](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/scenario-based-codebase/DSAScenarioBasedPractice/src/com)
-
+  
+### `java-collections-practice` :
+- 📌 [Generics](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/CollectionsConcepts/src/com/generics)
+- 📌 [List Interface](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/CollectionsConcepts/src/com/listinterface)
+- 📌 [Set Interface](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/CollectionsConcepts/src/com/setinterface)
+  
 ---
 
 ## 🎓 Learnings & Best Practices
