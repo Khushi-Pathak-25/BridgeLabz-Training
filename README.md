@@ -151,3 +151,11 @@ BridgeLabz-Training/
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
 👉 [Scenario Based Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/scenario-based-codebase/DSAScenarioBasedPractice/src/com/dayseven)
+
+### 🗓 Day 27 – Scenario-Based Practice  
+**(Date: 20-Jan-2026)**
+- Solved **3** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/dsa-practice/scenario-based-codebase/DSAScenarioBasedPractice/src/com/dayeight)
