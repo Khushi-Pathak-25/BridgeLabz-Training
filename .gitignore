@@ -1,0 +1,73 @@
+# Java / JVM
+*.class
+*.jar
+*.war
+*.ear
+*.jmod
+
+# Build tools
+target/
+build/
+.gradle/
+.mvn/
+node_modules/
+
+# IDE - Eclipse
+.metadata/
+.settings/
+.classpath
+.project
+bin/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# IDE - VS Code
+.vscode/
+
+# Logs & temp files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+
+# Large / generated data files
+*.txt
+*.dat
+*.jpg
+*.bin
+*.out
+*.dump
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / coverage
+coverage/
+*.exec
+*.lcov
+
+# Secrets / configs
+*.env
+*.properties
+*.keystore
+*.jks
+*.pem
+*.crt
+*.key
