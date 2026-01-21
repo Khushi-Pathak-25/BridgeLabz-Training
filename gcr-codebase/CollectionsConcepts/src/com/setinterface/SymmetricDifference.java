@@ -3,7 +3,8 @@ package com.setinterface;
 import java.util.*;
 
 public class SymmetricDifference {
-	// Method one
+	
+	// Method 1
 	public static Set<Integer> symmetricDifference(Set<Integer> set1, Set<Integer> set2) {
 		Set<Integer> result = new HashSet<>(set1);
 		result.addAll(set2); // union of both sets
@@ -14,7 +15,7 @@ public class SymmetricDifference {
 		return result;
 	}
 
-	// Method two
+	// Method 2
 	public static Set<Integer> symmetricDifferenceShort(Set<Integer> set1, Set<Integer> set2) {
 		Set<Integer> result1 = new HashSet<>(set1);
 		result1.removeAll(set2); // elements only in set1
