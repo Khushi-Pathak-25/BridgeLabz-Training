@@ -106,3 +106,31 @@ BridgeLabz-Training/
 - Committed and pushed all work.
 - 🔗 **Code Link:**  
 👉 [Exception Handling](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/CollectionsConcepts/src/com/exceptionhandling)
+
+### 🗓 Day 26 – Regex & JUnit Testing  
+**(Date: 21-Jan-2026)**
+- Studied Java Regular Expressions and `java.util.regex` API.
+- Worked with `Pattern` and `Matcher` classes.
+- Practiced regex metacharacters and quantifiers.
+- Implemented validations for:
+  - Email addresses
+  - Password strength
+  - Phone numbers
+- Used regex operations:
+  - `find()`, `matches()`, `replaceAll()`
+- Extracted structured data:
+  - Dates, hashtags, domain names
+- Learned JUnit fundamentals and testing lifecycle.
+- Used JUnit 5 annotations:
+  - `@Test`, `@BeforeEach`, `@AfterEach`, `@BeforeAll`, `@AfterAll`
+- Implemented:
+  - Parameterized tests and repeated tests
+  - Exception testing using `assertThrows`
+- Applied assertion APIs:
+  - `assertEquals`, `assertTrue`, `assertAll`
+- Followed Arrange-Act-Assert (AAA) testing pattern.
+- Created structured test classes and automated test execution.
+- Committed and pushed all work.
+- 🔗 **Code Link:**  
+👉 [Regex](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/CollectionsConcepts/src/com/regex)
+👉 [JUnit Testing](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/CollectionsConcepts/src/com/junit)
