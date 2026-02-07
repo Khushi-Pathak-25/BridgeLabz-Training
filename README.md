@@ -340,6 +340,7 @@ BridgeLabz-Training/
 ### `java-design-pattern-practice` :
 - 📌 [Design Principles & Patterns](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/designprinciples/librarycasestudy)
 - 📌 [Multithreading](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/multithreading)
+- 📌 [Scenario-Based Solutions](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-design-pattern-practice/scenario-based-codebase/DesignScenarioPractice/src/com)
 ---
 
 ## 🎓 Learnings & Best Practices
