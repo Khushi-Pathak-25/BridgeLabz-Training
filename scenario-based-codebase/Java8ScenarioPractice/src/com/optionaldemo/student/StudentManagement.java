@@ -61,7 +61,7 @@ public class StudentManagement {
 
 		// 3. Find student by ID simulation
 		System.out.println("\n3. Find student by ID:");
-		Optional<Student> found = findStudentById(102); // not found
+		Optional<Student> found = findStudentById(112); // not found
 		String result = found.map(Student::getName).orElse("Student not available");
 		System.out.println(result);
 
