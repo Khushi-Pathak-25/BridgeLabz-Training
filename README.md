@@ -323,7 +323,7 @@ BridgeLabz-Training/
 - 📌 [JUnit Testing](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/CollectionsConcepts/src/com/junit)
 - 📌 [Reflection](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/CollectionsConcepts/src/com/reflection)
 - 📌 [Annotations](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/CollectionsConcepts/src/com/annotations)
-- 📌 [Scenario-Based Solutions](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/scenario-based-codebase/CollectionsScenarioPractice/src/com/day01)
+- 📌 [Scenario-Based Solutions](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-collections-practice/scenario-based-codebase/CollectionsScenarioPractice/src/com)
 
 ### `java-iostreams-practice` :
 - 📌 [CSV Data Handling](https://github.com/Khushi-Pathak-25/BridgeLabz-Training/tree/java-iostreams-practice/gcr-codebase/IOStreamsConcepts/src/com/csvdata)
