@@ -1,0 +1,71 @@
+create database bank_db;
+use bank_db;
+
+-- create table accounts
+create table accounts(
+account_id int primary key,
+account_holder varchar(50),
+balance double);
+
+-- create table transactions
+create table transactions(
+txn_id int primary key auto_increment,
+from_account int,
+to_account int,
+amount double,
+txn_date timestamp default current_timestamp );
+
+-- insert into accounts
+INSERT INTO accounts VALUES
+(101, 'Khushi', 50000),
+(102, 'Aman', 30000),
+(103,'Pawan',40000);
+
+-- check balance
+select balance from accounts
+where account_id = 101;
+
+-- Transfer Money (Using Transaction)
+start transaction;
+
+-- Deduct Amount from Sender
+update accounts
+set balance = balance-5000
+where account_id = 101;
+
+--  Add Amount to Receiver
+update accounts
+set balance = balance+5000
+where account_id = 102;
+
+-- Insert Transaction History
+insert into transactions (from_account, to_account, amount) values(101, 102, 5000);
+
+-- Commit 
+commit;
+
+-- Rollback (If Any Error Occurs)
+rollback;
+
+-- View Transaction History
+select * from transactions;
+
+-- View accounts 
+select * from accounts;
+
+
+--  transactions
++--------+--------------+------------+--------+---------------------+
+| txn_id | from_account | to_account | amount | txn_date            |
++--------+--------------+------------+--------+---------------------+
+|      1 |          101 |        102 |   5000 | 2026-02-09 12:45:49 |
++--------+--------------+------------+--------+---------------------+
+
+-- accounts
++------------+----------------+---------+
+| account_id | account_holder | balance |
++------------+----------------+---------+
+|        101 | Khushi         |   45000 |
+|        102 | Aman           |   35000 |
+|        103 | Pawan          |   40000 |
++------------+----------------+---------+
