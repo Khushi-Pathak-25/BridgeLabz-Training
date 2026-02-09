@@ -1,0 +1,109 @@
+create database library_db;
+use library_db;
+
+-- create table book
+create table books(
+book_id int primary key auto_increment,
+title varchar(50),
+author varchar(50),
+category varchar(50),
+total_copies int,
+available_copies int);
+
+-- create student table
+create table students(
+student_id int primary key auto_increment,
+name varchar(50),
+course varchar(50));
+
+-- create borrow_records table
+create table borrow_records(
+records_id int primary key auto_increment,
+student_id int,
+book_id int,
+issue_date date,
+return_date date,
+fine double,
+foreign key (student_id)references students(student_id),
+foreign key (book_id)references books(book_id));
+
+-- add books to inventory
+insert into books(title, author, category, total_copies, available_copies)
+values('Java Basics', 'James Gosling', 'Programming', 10, 10),
+('OOP','E-Balaguru','Programming',5,5);
+
+-- add students
+insert into students(name,course)values('Khushi','BTech');
+
+-- Issue Book to Student
+start transaction;
+
+insert into borrow_records(student_id, book_id, issue_date)
+value(1,1,curdate());
+
+update books
+set available_copies = available_copies-1
+where book_id = 1;
+
+commit;
+
+-- return book
+update borrow_records
+set return_date = curdate()
+where book_id = 1;
+
+update books
+set available_copies = available_copies+1
+where book_id = 1;
+
+-- calaculate fine 
+update borrow_records
+SET fine = GREATEST(DATEDIFF(return_date, issue_date) - 7, 0) * 10
+WHERE record_id = 1;
+
+-- view borrowing history
+SELECT s.name, b.title, br.issue_date, br.return_date, br.fine
+FROM borrow_records br
+JOIN students s ON br.student_id = s.student_id
+JOIN books b ON br.book_id = b.book_id;
+
+-- search book by title
+select * from books
+where title like '%Java%';
+
+-- search book by author
+select * from books
+where author = 'James Gosling'
+and category = 'Programming';
+
+-- check available books
+select * from books
+where available_copies > 0;
+
+-- output
+
+-- books
+
++---------+-------------+---------------+-------------+--------------+------------------+
+| book_id | title       | author        | category    | total_copies | available_copies |
++---------+-------------+---------------+-------------+--------------+------------------+
+|       1 | Java Basics | James Gosling | Programming |           10 |               10 |
+|       2 | OOP         | E-Balaguru    | Programming |            5 |                5 |
++---------+-------------+---------------+-------------+--------------+------------------+
+
+-- students
+
++------------+--------+--------+
+| student_id | name   | course |
++------------+--------+--------+
+|          1 | Khushi | BTech  |
++------------+--------+--------+
+
+
+-- borrow_records
+
++------------+------------+---------+------------+-------------+------+
+| records_id | student_id | book_id | issue_date | return_date | fine |
++------------+------------+---------+------------+-------------+------+
+|          1 |          1 |       1 | 2026-02-09 | 2026-02-09  | NULL |
++------------+------------+---------+------------+-------------+------+
