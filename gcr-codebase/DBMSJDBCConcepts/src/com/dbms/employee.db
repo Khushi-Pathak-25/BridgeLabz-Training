@@ -1,0 +1,47 @@
+CREATE DATABASE employee_db;
+use employee_db;
+
+--  create employee table 
+create table employee(
+id int primary key auto_increment,
+name varchar(50),
+department varchar(50),
+salary double
+);
+
+
+-- add employee
+insert into employee(name, department, salary)
+value("Khushi","CSE",60000);
+insert into employee(name, department, salary)
+value ("Shagun","IT",55000);
+insert into employee(name, department, salary)
+value("Pawan","HR",70000);
+insert into employee(name, department, salary)
+value("Aman","MR", 80000);
+
+--  view all employee
+select * from employee;
+
+-- update employee salary
+UPDATE employee
+set salary = 65000
+where id = 2;
+
+-- delete employee
+delete from employee
+where id = 3;
+
+-- search employee by name
+select * from employee
+where name like '%Khushi%';
+
+
+--output
++----+--------+------------+--------+
+| id | name   | department | salary |
++----+--------+------------+--------+
+|  1 | Khushi | CSE        |  60000 |
+|  4 | Pawan  | HR         |  70000 |
+|  5 | Aman   | MR         |  80000 |
++----+--------+------------+--------+
