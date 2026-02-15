@@ -1,0 +1,166 @@
+CREATE DATABASE IF NOT EXISTS hospital_db;
+USE hospital_db;
+
+-- Specialties
+CREATE TABLE specialties(
+    specialty_id INT AUTO_INCREMENT PRIMARY KEY,
+    specialty_name VARCHAR(100) NOT NULL UNIQUE
+);
+
+-- Doctors
+CREATE TABLE doctors(
+    doctor_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    contact VARCHAR(10) NOT NULL UNIQUE,
+    consultation_fee DECIMAL(10,2) NOT NULL,
+    is_active BOOLEAN DEFAULT TRUE,
+    specialty_id INT NOT NULL,
+    FOREIGN KEY (specialty_id) 
+        REFERENCES specialties(specialty_id)
+        ON DELETE RESTRICT
+);
+
+-- Patients
+CREATE TABLE patients(
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    dob DATE NOT NULL,
+    contact VARCHAR(10) UNIQUE NOT NULL,
+    address VARCHAR(150),
+    blood_group VARCHAR(5)
+);
+
+-- Appointments
+CREATE TABLE appointments(
+    appointment_id INT AUTO_INCREMENT PRIMARY KEY,
+    patient_id INT NOT NULL,
+    doctor_id INT NOT NULL,
+    appointment_date DATE NOT NULL,
+    appointment_time TIME NOT NULL,
+    status VARCHAR(20) DEFAULT 'SCHEDULED',
+    
+    FOREIGN KEY (patient_id) 
+        REFERENCES patients(patient_id)
+        ON DELETE CASCADE,
+
+    FOREIGN KEY (doctor_id) 
+        REFERENCES doctors(doctor_id)
+        ON DELETE RESTRICT
+);
+
+-- Index for performance
+CREATE INDEX idx_doctor_date 
+ON appointments(doctor_id, appointment_date);
+
+-- VISIT MANAGEMENT
+CREATE TABLE visits(
+    visit_id INT AUTO_INCREMENT PRIMARY KEY,
+    appointment_id INT NOT NULL UNIQUE,
+    patient_id INT NOT NULL,
+    doctor_id INT NOT NULL,
+    diagnosis TEXT,
+    note TEXT,
+    visit_date DATE DEFAULT (CURRENT_DATE),
+
+    FOREIGN KEY (appointment_id)
+        REFERENCES appointments(appointment_id)
+        ON DELETE CASCADE,
+
+    FOREIGN KEY (patient_id)
+        REFERENCES patients(patient_id),
+
+    FOREIGN KEY (doctor_id)
+        REFERENCES doctors(doctor_id)
+);
+
+-- PRESCRIPTIONS
+CREATE TABLE prescriptions(
+    prescription_id INT AUTO_INCREMENT PRIMARY KEY,
+    visit_id INT NOT NULL,
+    medicine_name VARCHAR(100) NOT NULL,
+    dosage VARCHAR(50),
+    duration VARCHAR(50),
+
+    FOREIGN KEY (visit_id) 
+        REFERENCES visits(visit_id)
+        ON DELETE CASCADE
+);
+
+-- BILLING SYSTEM
+CREATE TABLE bills(
+    bill_id INT AUTO_INCREMENT PRIMARY KEY,
+    visit_id INT UNIQUE NOT NULL,
+    total_amount DECIMAL(10,2) NOT NULL,
+    payment_status VARCHAR(20) DEFAULT 'UNPAID',
+    bill_date DATE DEFAULT (CURRENT_DATE),
+
+    FOREIGN KEY (visit_id) 
+        REFERENCES visits(visit_id)
+        ON DELETE CASCADE
+);
+
+-- Payment Transactions
+CREATE TABLE payment_transactions (
+    payment_id INT AUTO_INCREMENT PRIMARY KEY,
+    bill_id INT NOT NULL,
+    payment_mode VARCHAR(50),
+    payment_date DATE DEFAULT (CURRENT_DATE),
+    amount DECIMAL(10,2),
+
+    FOREIGN KEY (bill_id) 
+        REFERENCES bills(bill_id)
+        ON DELETE CASCADE
+);
+
+-- AUDIT LOG
+CREATE TABLE audit_log (
+    log_id INT AUTO_INCREMENT PRIMARY KEY,
+    table_name VARCHAR(50),
+    operation VARCHAR(10),
+    record_id INT,
+    log_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    user_name VARCHAR(50)
+);
+
+-- SAMPLE DATA INSERT
+INSERT INTO specialties (specialty_name)
+VALUES ('Cardiology'), ('Orthopedics'), ('Neurology');
+
+INSERT INTO doctors (name, contact, consultation_fee, specialty_id)
+VALUES 
+('Dr. Sharma', '9876543211', 500, 1),
+('Dr. Mehta', '9876501234', 600, 2);
+
+INSERT INTO patients(name,dob,contact,address,blood_group)
+VALUES
+('Richa','2001-12-01','8251985654','Bhopal','O+'),
+('Kabir','2004-11-23','9876543210','Indore','AB-');
+
+-- IMPORTANT USE CASE QUERIES
+
+INSERT INTO appointments(patient_id, doctor_id, appointment_date, appointment_time)
+VALUES (1,1,'2026-02-20','10:00:00');
+
+START TRANSACTION;
+
+INSERT INTO visits(appointment_id, patient_id, doctor_id, diagnosis, note)
+VALUES (1,1,1,'Fever','Take rest');
+
+UPDATE appointments
+SET status='COMPLETED'
+WHERE appointment_id=1;
+
+COMMIT;
+
+INSERT INTO bills(visit_id,total_amount)
+VALUES (
+    1,
+    (SELECT consultation_fee FROM doctors WHERE doctor_id=1)
+);
+
+SELECT d.name,
+       SUM(b.total_amount) AS revenue
+FROM bills b
+JOIN visits v ON b.visit_id = v.visit_id
+JOIN doctors d ON v.doctor_id = d.doctor_id
+GROUP BY d.name;
